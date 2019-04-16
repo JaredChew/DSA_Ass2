@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Stages">
+      <UniqueIdentifier>{8539dec3-a9a3-446e-a1bb-5d32f3ca8928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies">
+      <UniqueIdentifier>{0634d7a6-8981-4842-bd99-042b75e60077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\Source Files">
+      <UniqueIdentifier>{b4c0bd44-8ee4-4395-8bce-42fc2b75aadc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\Header Files">
+      <UniqueIdentifier>{beb49a9a-7a89-45ef-bd18-424ea0d167b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenes">
+      <UniqueIdentifier>{77af8c83-fe1f-4a60-9207-00011290596c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Objects">
+      <UniqueIdentifier>{986247b7-ad1a-4672-bf1b-086b97895fe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stages">
+      <UniqueIdentifier>{63a7c531-c2c7-4820-9fa7-37dd3333502d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scenes">
+      <UniqueIdentifier>{0d0a915d-86b7-473e-aae8-e5a159a8b94b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tools">
+      <UniqueIdentifier>{d988cf8c-f38b-4009-9389-22173344f306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tools">
+      <UniqueIdentifier>{dd026556-2c9d-4f43-a9a5-f530f731d8c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data Structures">
+      <UniqueIdentifier>{4f114b11-d6c6-4831-ba22-11e8d5930d01}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stage1.cpp">
+      <Filter>Source Files\Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="stage2.cpp">
+      <Filter>Source Files\Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="stage3.cpp">
+      <Filter>Source Files\Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="conio_yp.c">
+      <Filter>Dependencies\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scenes.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="charImageGenerator.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gameSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="conio_yp.h">
+      <Filter>Dependencies\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scenes.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="stage1.h">
+      <Filter>Header Files\Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="stage2.h">
+      <Filter>Header Files\Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="stage3.h">
+      <Filter>Header Files\Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="pipes.hpp">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="charSprites.hpp">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="charImageGenerator.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="linkedList.hpp">
+      <Filter>Header Files\Data Structures</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
